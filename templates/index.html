@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Home
+{% endblock title %}
+
+{% block main %}
+    Home
+    <a href="{% url 'articles:list' %}">Articles</a>
+{% endblock main %}
